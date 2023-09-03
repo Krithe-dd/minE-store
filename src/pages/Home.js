@@ -32,8 +32,8 @@ export const Home = () => {
       dispatch(headerActions.toggleHeader({ display: "show" }));
     }
     observer.observe(targetRef.current);
-    return () => observer.disconnect();
-  }, [isIntersecting]);// eslint-disable-next-line
+    return () => observer.disconnect();// eslint-disable-next-line
+  }, [isIntersecting]);
   return (
     <div className={classes.home}>
       <Carousel height={height}/>

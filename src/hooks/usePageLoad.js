@@ -53,8 +53,8 @@ const usePageLoad = (url, type) => {
     return () => {
       dispatch(productActions.clearFilter());
     };
-  }, []);
-  return { isLoading, isError, products, noresults };// eslint-disable-next-line
+  }, []);// eslint-disable-next-line
+  return { isLoading, isError, products, noresults };
 };
 
 export default usePageLoad;
