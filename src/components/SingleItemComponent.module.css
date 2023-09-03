@@ -1,0 +1,48 @@
+.SingleItemComponent img{
+    width: 30rem;
+    height: 20rem;
+}
+.SingleItemComponent{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(222, 222, 222,0.8);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin:auto ;
+}
+.SingleItemComponent .actions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btnCart{
+    padding: .3rem .8rem;
+    border: 1px solid;
+}
+.btnCart:hover{
+    background-color: rgba(165, 155, 155, 0.4);
+}
+.count button{
+    border: 1px solid;
+}
+.count button:hover{
+    background-color: rgba(165, 155, 155, 0.4);
+}
+.SingleItemComponent span{
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count{
+    display: flex;
+}
+.count button{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}

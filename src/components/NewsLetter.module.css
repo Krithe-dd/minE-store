@@ -1,0 +1,29 @@
+.newsLetter{
+    background-color: rgba(222, 222, 222,0.8);
+    margin: 3rem;
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newsLetter input{
+    border: none;
+    background: transparent;
+}
+.newsLetter input:hover{
+    outline: none;
+    border-bottom: 1px solid;
+}
+.newsLetter input:focus{
+    outline: none;
+    border-bottom: 1px solid;
+}
+.newsLetter form{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.newsLetter form button{
+    padding:.5rem 1rem;
+}

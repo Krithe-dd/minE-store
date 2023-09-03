@@ -1,0 +1,117 @@
+.cartWrapper{
+    display: flex;
+    flex-direction: column;
+}
+.cartContainer{
+    margin-top: 3rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.cartSection{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.emptyCart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cartItem img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: contain;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.itemsSection{
+    display: flex;
+    margin:0 2rem;
+    overflow-y: scroll;
+    height: 40vh;
+    padding: .5rem;
+    border-top: 1px solid;
+}
+.itemsSection::-webkit-scrollbar{
+    background-color: transparent;
+}
+.cartItem{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    min-width: 30vw;
+    margin: auto;
+}
+.cartItem:hover{
+    box-shadow:1px 1px 15px black;
+}
+.changeQuantity{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.changeQuantity button{
+    background-color: transparent;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: 1px solid;
+}
+.changeQuantity button:hover{
+    background-color: rgba(165, 155, 155, 0.4)
+}
+.summarySection{
+    padding: 1rem;
+    width: 30%;
+    border-left: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+.cartHeading{
+    text-align: center;
+}
+.summarySection i{
+    margin-bottom: 1rem;
+}
+.active{
+    color: black;
+}
+.savedAddress{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.savedAddress p{
+    margin: 0;
+    border: 1px solid ;
+    padding: .2rem .4rem;
+    cursor: pointer;
+}
+.highlight{
+    background-color: rgba(165, 155, 155, 0.4);
+}
+.deliverTo{
+    margin: 0;
+}
+.addressSection{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #000;
+    gap: 1rem;
+}
+.addressSection h3{
+    margin: 0;
+}
+.addressSection button{
+    margin: auto;
+}
+.orderButton{
+    margin: auto;
+    margin-top: 1rem;
+}

@@ -1,0 +1,53 @@
+.skeletonWrapper{
+    width: 100%;
+    display: flex;
+    margin-top: 7rem;
+}
+.skeleton{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 2rem;
+}
+.imageSkeleton{
+    width: 30rem;
+    height: 20rem;
+    background-image: var(--bg-gradient);
+    background-size: 200% 100%;
+    animation: var(--skeleton-animation);
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.titleSkeleton{
+    background-image: var(--bg-gradient);
+    height: 2rem;
+    width: 15rem;
+    animation: var(--skeleton-animation);
+    background-size: 200% 100%;
+}
+.ratingSkeleton{
+    background-image: var(--bg-gradient);
+    height: 2rem;
+    width: 5rem;
+    animation: var(--skeleton-animation);
+    background-size: 200% 100%;
+}
+.priceSkeleton{
+    background-image: var(--bg-gradient);
+    height: 2rem;
+    width: 3rem;
+    animation: var(--skeleton-animation);
+    background-size: 200% 100%;
+}
+.buttonSkeleton{
+    background-image: var(--bg-gradient);
+    height: 2rem;
+    width: 8rem;
+    animation: var(--skeleton-animation);
+    background-size: 200% 100%;
+
+}

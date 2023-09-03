@@ -1,0 +1,68 @@
+.productCard{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    padding:1rem 2rem 1rem;
+    position: relative;
+    
+}
+.productCard *{
+    text-decoration: none;
+    color: inherit;
+}
+.productCard:hover{
+    box-shadow:1px 1px 15px black;
+}
+.productCard:hover i{
+    opacity: 1;
+    cursor: pointer;
+}
+.productCard img{
+    height: 12rem;
+    width: 12rem;
+    object-fit: contain;
+}
+.productCard button{
+    position: absolute;
+    bottom: 2%;
+    padding: .5rem 1rem;
+    border:none
+}
+.productCard button:hover{
+    background-color: rgba(165, 155, 155, 0.4)
+}
+
+.productCard i{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    opacity: 0;
+}
+.actions{
+    margin-top: 1.5rem;
+}
+.actions span{
+    text-decoration: line-through;
+    color: grey;
+    margin-left: 1rem;
+}
+.actions p:nth-child(2){
+    margin: 1rem;
+}
+.rating{
+    padding:.1rem 1rem;
+    display: inline-block;
+    color: white;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}

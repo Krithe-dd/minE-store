@@ -1,0 +1,46 @@
+.trending{
+    text-align: center;
+    background-color: rgba(222, 222, 222,0.8);
+    margin: 3rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.items img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+.itemContainer{
+    position: relative;
+    cursor: pointer;
+    color: inherit;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.itemContainer:hover > section{
+    opacity: 1;
+}
+.items section:hover{
+    opacity: 1;
+}
+.items img:hover{
+    opacity: .4;
+}
+.itemContainer section{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    left: 50%;
+    opacity: 0;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+.itemContainer i{
+    cursor: pointer;
+}
+   

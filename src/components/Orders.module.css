@@ -1,0 +1,16 @@
+.ordersWrapper{
+    text-align: center;
+    margin-top: 2rem;
+}
+.singleOrder{
+    display: flex;
+    border: 1px solid grey;
+    padding:.5rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: .3rem;
+}
+.singleOrder:hover{
+    box-shadow:1px 1px 15px black;
+}

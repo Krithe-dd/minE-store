@@ -1,0 +1,33 @@
+.addressesContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.addressesContainer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    padding: 0;
+}
+.individualAddress{
+    padding:.5rem 1rem;
+    width: 100%;
+    position: relative;
+}
+.individualAddress:hover{
+    box-shadow: 1px 1px 15px black;
+}
+.actions{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    display: flex;
+    gap: .5rem;
+    transform: translateY(-50%);
+}
+.actions i{
+    cursor: pointer;
+}

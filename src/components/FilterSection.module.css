@@ -1,0 +1,23 @@
+.filterForm{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    
+}
+.filterWrapper{
+    position: fixed;
+    margin-top: 3rem;
+    /* top: 20%; */
+    /* left: 0; */
+    width: 20%;
+    /* height: 80%; */
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:rgba(222, 222, 222,0.8);
+    border-radius: 10px;
+}
+

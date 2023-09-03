@@ -1,0 +1,39 @@
+.loginForm{
+    position: fixed;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    z-index: 20;
+}
+.loginForm input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+    padding: .5rem;
+}
+.loginForm input:focus{
+    outline: none;
+}
+.loginForm div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loginForm p{
+    color: rgb(226, 50, 50);
+}
+.loginForm button{
+    border-radius: 5px;
+    border: none;
+    padding:.5rem 1rem;
+    background-color: rgba(165, 155, 155, 0.4);
+    cursor: pointer;
+}

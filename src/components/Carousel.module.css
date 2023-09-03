@@ -1,0 +1,12 @@
+.imgModel:nth-child(3){
+    background-color: rgb(200, 198, 198);
+    height: 100vh;
+    position: relative;
+}
+
+.imgModel:nth-child(1){
+    background-color: rgba(203, 143, 143, 0.866);
+}
+span{
+    color: black;
+}
