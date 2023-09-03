@@ -16,10 +16,10 @@ const Root = () => {
   const isLoginOpen = useSelector((state) => state.login.isLoginOpen);
   const header = useSelector((state) => state.header.showHeader);
   useEffect(() => {
-    dispatch(sendCartData(cart, userId, user));
+    dispatch(sendCartData(cart, userId, user));// eslint-disable-next-line
   }, [cart]);
   useEffect(() => {
-    dispatch(sendWishlistData(wishListItems, user, userId));
+    dispatch(sendWishlistData(wishListItems, user, userId));// eslint-disable-next-line
   }, [wishListItems]);
   return (
     <div>

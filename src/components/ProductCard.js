@@ -28,7 +28,7 @@ const ProductCard = ({ product }) => {
     }
   };
   useEffect(()=>{
-    dispatch(sendWishlistData(wishlistItems,user,userId))
+    dispatch(sendWishlistData(wishlistItems,user,userId))// eslint-disable-next-line
   },[wishlistItems])
   let customRating;
   if (
@@ -52,7 +52,7 @@ const ProductCard = ({ product }) => {
         className={wishListClass}
       ></i>
       <Link to={`${pathname}/${product.id}`}>
-        <img src={product.image || product.poster} />
+        <img src={product.image || product.poster} alt="product" />
         <div className={classes.actions}>
           <h5>{product.title || product.name}</h5>
           <p className={ratingClass}>

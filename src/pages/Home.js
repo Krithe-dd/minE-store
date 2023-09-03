@@ -33,7 +33,7 @@ export const Home = () => {
     }
     observer.observe(targetRef.current);
     return () => observer.disconnect();
-  }, [isIntersecting]);
+  }, [isIntersecting]);// eslint-disable-next-line
   return (
     <div className={classes.home}>
       <Carousel height={height}/>

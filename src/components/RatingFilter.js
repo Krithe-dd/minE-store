@@ -13,7 +13,7 @@ const RatingFilter = ({label}) => {
     <div>
         <div>
           <label htmlFor={label}>{label} stars +</label>
-          <input onChange={setRating}  id={label} checked={rating==label || false} type="radio" name="rating" value=''/>
+          <input onChange={setRating}  id={label} checked={rating === +label || false} type="radio" name="rating" value=''/>
         </div>
     </div>
   )

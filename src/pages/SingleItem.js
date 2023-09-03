@@ -4,16 +4,14 @@ import SingleItemComponent from "../components/SingleItemComponent";
 import classes from './SingleItem.module.css'
 import {popularProducts} from '../data'
 import Error from "./Error";
-import Header from "../components/Header";
 const SingleItem = () => {
   const params = useParams();
   const { id,trendingId } = params;
   const data = useLoaderData();
   const { products } = data;
-  const selectedItem = products?.find((item) => (item.id == id) || (item.id == trendingId)) || data.find((item) => item.id == id)
+  const selectedItem = products?.find((item) => (item.id === +id) || (item.id === +trendingId)) || data.find((item) => item.id === +id)
   return (
     <>
-    {/* <Header/> */}
     <div className={classes.singleItemComponentWrapper}>
       {selectedItem ? <SingleItemComponent product={selectedItem} /> : <Error/>}
     </div>

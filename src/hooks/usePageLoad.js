@@ -1,4 +1,3 @@
-import React from "react";
 import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { productActions } from "../store";
@@ -55,7 +54,7 @@ const usePageLoad = (url, type) => {
       dispatch(productActions.clearFilter());
     };
   }, []);
-  return { isLoading, isError, products, noresults };
+  return { isLoading, isError, products, noresults };// eslint-disable-next-line
 };
 
 export default usePageLoad;

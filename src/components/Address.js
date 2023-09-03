@@ -7,7 +7,7 @@ import { loginActions } from "../store";
 
 const Address = (props) => {
   const { savedAddress } = props;
-  const [newAddress, setAddress] = useState(savedAddress);
+  const [newAddress] = useState(savedAddress);
   console.log(newAddress);
   const [error, setError] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
