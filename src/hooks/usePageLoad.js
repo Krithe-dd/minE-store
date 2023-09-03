@@ -52,8 +52,8 @@ const usePageLoad = (url, type) => {
     fetchData();
     return () => {
       dispatch(productActions.clearFilter());
-    };
-  }, []);// eslint-disable-next-line
+    };// eslint-disable-next-line
+  }, []);
   return { isLoading, isError, products, noresults };
 };
 
